@@ -1,0 +1,21 @@
+div.sc_menu {
+  display: block;
+  position: relative;
+  height: 480px;
+  width: 900px;
+  left: 5px;
+  overflow: hidden;
+}
+ul.sc_menu {
+  display: block;
+  height: 110px;
+  padding: 5px 0 0 0px;
+  margin: 0;
+  background: url('navigation.png');
+  list-style: none;
+}
+ul.sc_menu li {
+  display: block;
+  float: left;
+  padding: 0px 1px;
+}
