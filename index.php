@@ -2,24 +2,23 @@
   <head>
   <link rel="stylesheet" href="boss.css">
   <title>
-  Тестовая страница
-  
+  Компания "ТыжПрограммист"
   </title>
   </head>
   <body>
     <?php
-      echo "Hello World!";
-    ?>
+          ?>
     <div id ="container">
     <div id="header">
-
-     </form>
+    <form action="text.php">
+      <input type="submit" /> 
+    </form>
    </div>
    <div id="sidebar">
      <div class="petux">
-      <form action="action.php" method="post">
-    <p>Ваше имя: <input type="text" name="name"/></p>
-    <p>Ваш возраст:<input type="text" name="age"/></p>
+      <form action="vhod.php" method="post">
+    <p>Логин: <input type="text" name="login"/></p>
+    <p>Пароль:<input type="password" name="password"/></p>
     <p><input type="submit"/></p>
     </form>
     </div>
@@ -27,23 +26,15 @@
    <div id="content">
     <h2>Опрос общественного мнения показал</h2>
     <ul>
-     <li class="lopr">что пароход изобретен: Петром I, А. Эйнштейном и А. Поповым;</li>
-     <li>Диего Веласкес писал свои полотна в стиле: империализма, кубизма 
-     и империосионизма;</li>
-     <li>Фаросский маяк находится в Фаросе;</li>
-     <li>конфуцианство возникло в: Италии, Корее и Франции;</li>
-     <li>богами торговли и воровства в Древней Греции были: Марс, Меркурий 
-     и Дионис;</li>
-     <li>Франция – это город;</li>
-     <li>богами загробного мира в Египте были: Аид, Анубис и Ассирис;</li>
-     <li>столица Золотой Орды — Монголия;</li>
-     <li>главные противники Александра Македонского: татаро-монголы, Дедал 
-     и Цезарь;</li>
-     <li>священными птицами — символами Афин были: ворона и орел;</li>
-     <li>в Древней Греции морями повелевали боги: Плутон, Нептун и Тритон.</li>
+     <li>
+     хрень
+     </li>
+     <li>
+    хрень2
+     </li>
     </ul> 
    </div>
-   <div id="footer">&copy; Влад Мержевич</div>
+   <div id="footer">&copy; Компания "ТыжПрограммист"</div>
     </div>
     </div>
     

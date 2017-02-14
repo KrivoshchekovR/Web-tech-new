@@ -1,14 +1,17 @@
+      @charset "utf-8";
       input[type=button], input[type=submit], input[type=reset] 
 	      {
 		    background-color: #4CAF50;
 		    border: none;
 		    color: white;
-		    padding: 16px 32px;
+		    padding: 5px 12px;
 		    text-decoration: none;
-		    margin: 4px 2px;
+		    margin:4px;
 		    cursor: pointer;
 		    border-radius: 5px;
-		    font:100% Candara;
+		    height: 30px;
+		    width: 60px
+		    font: 5pt Candara;
 		  }
 		  input[type=text]
 		  {
@@ -17,13 +20,32 @@
 		    background-repeat: no-repeat;
 		    padding-left: 3px;
 		    border-radius: 5px;
-		    border-color: #991111;		 
+		    border-color: #991111;	
+		     width: 80%;	 
 		  }
+		  input[type=password]
+		  {
+		  	background-color: #CC3311;
+		    background-position: 10px 10px; 
+		    background-repeat: no-repeat;
+		    padding-left: 3px;
+		    border-radius: 5px;
+		    border-color: #991111;	
+		    width: 80%;
+		  }
+		  li
+		  {
+		  	list-style-type: inherit;
+		  }
+		   ul
+		   {
+		    list-style-image: url(/image/nav.gif);
+		    }
 		  .petux
 		  {
+		  	padding: 3px;
 		  	width: 100%;
 		  	background: #FF11FF;
-		  	padding:10px;
 		  	border-radius: 10px;
 		  }
 		  #container {
@@ -55,8 +77,5 @@
 		    padding: 5px; /* Отступы вокруг текста */
 		    clear: left; /* Отменяем действие float */
 		   }
-		   .lopr
-		   {
-		   	list-style-image: "pips.png";
-		   }
-
+		   
+		   
