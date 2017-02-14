@@ -11,14 +11,19 @@
 	<meta name="keywords" content="помощь, help,html, css, js, php, ">
 
 	<style>
-		div {
+		div.div1 {
 			display: block;
 			background-color: #432435;
             width: 100%;
 		}
+		
+		body {
+			padding: 0px;
+			margin: 0;
+		}
 		ul.nav {
 			margin: 0; 
-			padding: 6px; 
+			padding: 0px; 
 			 }
 		 
 		ul.nav li {
@@ -40,8 +45,8 @@
 			}
 	</style>
   </head>
-  <body margin: 0px>
-    <div class="navigation">
+  <body>
+    <div class="div1">
 		<ul class="nav">
 			<li><a href="#">Главная страница</a></li>
 			<li><a href="#">Заказать помощь</a></li>
