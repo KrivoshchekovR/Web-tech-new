@@ -36,7 +36,6 @@
    </div>
    <div id="footer">&copy; Компания "ТыжПрограммист"</div>
     </div>
-    </div>
-    
+    </div> 
   </body>
 </html>
