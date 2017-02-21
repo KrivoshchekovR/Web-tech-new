@@ -1,57 +1,41 @@
-<!DOCTYPE html>
-<html lang="ru">
+<html> 
   <head>
-	<title>Быстрая компьютерная помощь на дому.</title>
-	<meta charset="utf-8">
-	<meta name="author" lang="ru" content="Максим Савин">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name='yandex-verification' content='60735ae38dd9271d' />	
-	<meta name="description" content="Здесь нужен текст.">
-
-	<meta name="keywords" content="помощь, help,html, css, js, php, ">
-
-	<style>
-		div.div1 {
-			display: block;
-			background-color: #432435;
-            width: 100%;
-		}
-		
-		body {
-			padding: 0px;
-			margin: 0;
-		}
-		ul.nav {
-			margin: 0; 
-			padding: 0px; 
-			 }
-		 
-		ul.nav li {
-			display: inline-table;
-			margin-right: 5px;
-			border-radius: 20px;
-			padding: 3px; 
-			}
-			
-		li a {
-			text-decoration: none;
-			font-family: 'Arial';
-			font-size: 12;
-			color: #72638B;
-			}
-			
-		a:hover, a:active { 
-			font-weight: bold;
-			}
-	</style>
+  <link rel="stylesheet" href="boss.css">
+  <title>
+  Компания "ТыжПрограммист"
+  </title>
   </head>
   <body>
-    <div class="div1">
-		<ul class="nav">
-			<li><a href="#">Главная страница</a></li>
-			<li><a href="#">Заказать помощь</a></li>
-			<li><a href="#">Виды услуг</a></li>
-		</ul>
-	</div>
+    <?php
+          ?>
+    <div id ="container">
+    <div id="header">
+    <form action="text.php">
+      <input type="submit" /> 
+    </form>
+   </div>
+   <div id="sidebar">
+     <div class="petux">
+      <form action="vhod.php" method="post">
+    <p>Логин: <input type="text" name="login"/></p>
+    <p>Пароль:<input type="password" name="password"/></p>
+    <p><input type="submit"/></p>
+    </form>
+    </div>
+   </div>
+   <div id="content">
+    <h2>Опрос общественного мнения показал</h2>
+    <ul>
+     <li>
+     хрень
+     </li>
+     <li>
+    хрень2
+     </li>
+    </ul> 
+   </div>
+   <div id="footer">&copy; Компания "ТыжПрограммист"</div>
+    </div>
+    </div> 
   </body>
 </html>
