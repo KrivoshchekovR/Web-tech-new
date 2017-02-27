@@ -1,0 +1,43 @@
+ul{
+	color: grey;
+	display: inline;
+	width: 100vh;
+	position: relative;
+	margin: 0 auto;
+	padding: 50px;
+}
+footer{
+	padding: 0;
+	color: white;
+	background-color: grey;
+}
+
+article{
+	display: block;
+	height: 90vh;
+	background-color: white;
+	margin: 0 auto;
+	border: 0;
+	padding: 0;
+	margin-top: 10;
+}
+
+a{
+	background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%); 
+	background-position: center bottom; 
+	background-repeat: no-repeat; 
+	background-size: 0 2px, 100% 2px; 
+	color: #1E3A52; 
+	padding-bottom: 3px; 
+	transition: .5s ease-in-out;
+}
+
+a:hover{
+	background-size: 100% 2px, 100% 2px;
+	color: #FE5568;
+}
+
+a:active {
+	color: #497DDD; 
+	border-bottom: 1px dashed;
+}
