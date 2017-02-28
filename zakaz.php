@@ -1,26 +1,26 @@
 <html>
 	<head>
-		<title>Ремонт_техники /*Название*/</title>
+		<title>РћС„РѕСЂРјРёС‚СЊ Р·Р°РєР°Р·</title>
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="stylesheet" type="text/css" href="zakaz.css">
 	</head>
 
 	<body>
 		<nav align=center>
-			<ul><a href="index.php">Главная страница</a></ul>
-			<ul><a href="contact.php">Контакты</a></ul>
-			<ul><a href="zakaz.php">Заказать услугу</a></ul>
+			<ul><a href="index.php">Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°</a></ul>
+			<ul><a href="contact.php">РљРѕРЅС‚Р°РєС‚С‹</a></ul>
+			<ul><a href="zakaz.php">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a></ul>
 		</nav>
 		<div align=center>
 			<p></p>
 			<table align=center>
-				<tr><th>Наименование услуги</th><th>Цена</th></tr>
-				<tr><td>Починка компьюктера</td><td>100 $</td></tr>
-				<tr><td>Чтобы всё работало</td><td>100 $</td></tr>
-				<tr><td>Настройка вифи</td><td>100 $</td></tr>
-				<tr><td>Убрать полосы с экрана</td><td>100 $</td></tr>
-				<tr><td>Почистить память и ауру</td><td>100 $</td></tr>
-				<tr><td>Помыть машину</td><td>1000 $</td></tr>
+				<tr><th>РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓСЃР»СѓРіРё</th><th>РЎС‚РѕРёРјРѕСЃС‚СЊ</th></tr>
+				<tr><td>РЈСЃР»СѓРіР° 1</td><td>100 $</td></tr>
+				<tr><td>РЈСЃР»СѓРіР° 2</td><td>100 $</td></tr>
+				<tr><td>РЈСЃР»СѓРіР° 3</td><td>100 $</td></tr>
+				<tr><td>РЈСЃР»СѓРіР° 4</td><td>50 $</td></tr>
+				<tr><td>РЈСЃР»СѓРіР° 5</td><td>100 $</td></tr>
+				<tr><td>РЈСЃР»СѓРіР° 6</td><td>1000 $</td></tr>
 			</table>
 		</div>
 	</body>
