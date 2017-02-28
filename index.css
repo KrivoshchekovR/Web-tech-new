@@ -14,7 +14,7 @@ footer{
 
 article{
 	display: block;
-	height: 90vh;
+	height: 75vh;
 	background-color: white;
 	margin: 0 auto;
 	border: 0;
@@ -26,14 +26,14 @@ a{
 	background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%); 
 	background-position: center bottom; 
 	background-repeat: no-repeat; 
-	background-size: 0 2px, 100% 2px; 
+	background-size: 0 3px, 100% 3px; 
 	color: #1E3A52; 
-	padding-bottom: 3px; 
-	transition: .5s ease-in-out;
+	padding-bottom: 5px; 
+	transition: .2s ease-out;
 }
 
 a:hover{
-	background-size: 100% 2px, 100% 2px;
+	background-size: 100% 3px, 100% 3px;
 	color: #FE5568;
 }
 
