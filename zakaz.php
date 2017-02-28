@@ -23,5 +23,14 @@
 				<tr><td>Услуга 6</td><td>1000 $</td></tr>
 			</table>
 		</div>
+			<form action="handler.php" method="post">
+			<input type="text" name="phone" placeholder="Телефон">
+			<input list="lis" name="listbase" placeholder = "Выберите проблему">
+			<input type="submit" value="Отправить">
+		
+			<datalist id="lis">
+				<option>Серьезная проблема</option>
+				<option>Не очень</option>
+			</datalist> 
 	</body>
 </html>
